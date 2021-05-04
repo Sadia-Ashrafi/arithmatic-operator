@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>arithmatic operator</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+     <div class="full-wrapper">
+       <div class="container">
+       <div class="math m-30">
+           <h2 class="number1"></h2>
+           <h2 class="number1"></h2>
+           <p class="one"></p>
+           <button onclick="addition();">+</button>
+       </div>
+
+     <div class="math m-30">
+        <h2 class="number2"></h2>
+        <h2 class="number2"></h2>
+        <p class="two"></p>
+        <button onclick="subtraction();">-</button>
+    </div>       
+   
+    <div class="math m-30">
+        <h2 class="number3"></h2>
+        <h2 class="number3"></h2>
+        <p class="three"></p>
+        <button onclick="multiplication();">x</button>
+    </div>   
+
+    <div class="math">
+        <h2 class="number4"></h2>
+        <h2 class="number4"></h2>
+        <p class="four"></p>
+        <button onclick="divition();">/</button>
+    </div>   
+      </div>
+     </div>
+
+
+     <script>
+        document.getElementsByClassName('number1')[0].innerHTML="80"
+        document.getElementsByClassName('number1')[1].innerHTML="50"
+        document.getElementsByClassName('number2')[0].innerHTML="100"
+        document.getElementsByClassName('number2')[1].innerHTML="50"
+        document.getElementsByClassName('number3')[0].innerHTML="35"
+        document.getElementsByClassName('number3')[1].innerHTML="12"
+        document.getElementsByClassName('number4')[0].innerHTML="35"
+        document.getElementsByClassName('number4')[1].innerHTML="5"
+
+
+        function addition(){
+           var x = 80;
+           var y = 50;
+           var add = x + y;
+           document.getElementsByClassName('one')[0].innerHTML=add;
+       }
+        function subtraction(){
+           var x = 100;
+           var y = 50;
+           var add = x - y;
+           document.getElementsByClassName('two')[0].innerHTML=add;
+      }
+        function multiplication(){
+           var x = 35;
+           var y = 12;
+           var add = x * y;
+           document.getElementsByClassName('three')[0].innerHTML=add;
+      }
+        function divition(){
+           var x = 35;
+           var y = 5;
+           var add = x / y;
+           document.getElementsByClassName('four')[0].innerHTML=add;
+      }
+     </script>
+
+    </body>
+</html>

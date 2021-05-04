@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clr{
+    clear:both;
+}
+
+ul{
+    list-style: none;
+}
+.clr{
+    clear:both;
+}
+img{
+    vertical-align: middle;
+} 
+.m-30{
+    margin-right: 30px;
+}
+/* common css ends */
+
+.full-wrapper{
+    width:100%;
+}
+.container{
+    width:970px;
+    margin:0 auto;
+}
+.full-wrapper .container .math{
+    width:220px;
+    margin-top: 300px;
+    float:left ;
+    background-color: #ABE2F1;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-radius: 20%;
+}
+.full-wrapper .container .math button{
+    margin-top: 30px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    color:#fff;
+    background-color:#335EC2;
+    border-color: #335EC2;
+}
